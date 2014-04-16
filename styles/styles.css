@@ -1,0 +1,24 @@
+/**
+*======================================================================================================
+* styles.css Styles for DaphneDixon.com\
+*======================================================================================================
+*
+* Created April 9, 2014
+*
+*Authored By Sergio Valente and Alex Peras
+* 
+*/
+
+/* ----- Basic Styling -----*/
+
+body {
+background-color: #3EED61;
+}
+
+
+nav ul{
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+}
