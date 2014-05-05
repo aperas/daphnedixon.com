@@ -6,19 +6,59 @@
 * Created April 9, 2014
 *
 *Authored By Sergio Valente and Alex Peras
-* 
+*.
 */
 
 /* ----- Basic Styling -----*/
 
-body {
-background-color: #3EED61;
+@media (min-width: @screen-sm-min) {
+... 
 }
-
+@media (max-width: @screen-md-min){
+...
+}
+@media (max-width: @screen-lg-min){
+... 
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+...
+}
+body {
+ background-color: #D8D8C5;
+}
+header{
+  display: inline;
+}
 
 nav ul{
   list-style-type: none;
 }
 nav li {
   display: inline;
+  padding-left:.5em;
 }
+#branding{
+  background-color: #fff;
+}
+
+#socialmedia{
+ float: right; 
+ background-color: #fff;
+ padding: 20px 10px;
+}
+div#content h2{
+  padding-left: 25px;
+}
+a:link {
+  color: #2E9C53;
+}
+a:visited {
+  color: #2E9C53;
+}
+
+footer {
+  display:block;
+  position: relative;
+  bottom: 0px;
+}
+#
